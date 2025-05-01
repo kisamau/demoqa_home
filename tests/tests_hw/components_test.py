@@ -1,4 +1,7 @@
+import time
+
 from selenium.webdriver.common.by import By
+from selenium.common.exceptions import NoSuchElementException
 
 
 class Components:
@@ -12,14 +15,22 @@ class Components:
         return self.driver.get(self.base_url)
 
     def find_element(self):
+        time.sleep(2)
         return self.driver.find_element(By.CSS_SELECTOR, self.locator)
 
+    def exist(self):
+        try:
+            self.find_element()
+        except NoSuchElementException:
+            return False
+        return True
+
     def get_text(self):
-        footer = self.find_element()
-        if footer:
-            return str(self.find_element().text)
-        else:
-            return ''
+        # footer = self.find_element()
+        # if footer:
+        return str(self.find_element().text)
+        # else:
+        #     return ''
 
     def verify_footer_text(self):
         footer_text = self.get_text()
@@ -36,6 +47,18 @@ class Components:
         text_page = self.locator
         center_text = 'Please select an item from left to start practice'
         if text_page == center_text:
+            return True
+        else:
+            return False
+
+    def visible (self):
+        return self.find_element().is_displayed()
+
+    def find_elements(self):
+        return self.driver.find_elements(By.CSS_SELECTOR, self.locator)
+
+    def check_count (self, count:int):
+        if len(self.find_elements()) == count:
             return True
         else:
             return False

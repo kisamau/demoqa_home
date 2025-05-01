@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d3264dd-0346-4679-82f9-c50531a8f938" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/tests_hw/components_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/tests_hw/test_check_text.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_check_swag.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_check_swag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/tests_hw/components_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests_hw/components_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/tests_hw/test_check_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests_hw/test_check_text.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745431043059</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1745697536125</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745697536125</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
