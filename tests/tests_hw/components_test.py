@@ -63,6 +63,21 @@ class Components:
         else:
             return False
 
+    def get_url(self):
+        return self.driver.current_url
+
+    def equal_url(self):
+        if self.get_url() == self.base_url:
+             return True
+        else:
+             return False
+
+    def refresh(self):
+        self.driver.refresh()
+
+    def title(self):
+        return self.driver.title
+
 class Elements(Components):
     def __init__(self, driver):
         self.base_url = 'https://demoqa.com/elements'
