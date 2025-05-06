@@ -1,6 +1,6 @@
-# import time
-# from pages.demoqa import DemoQa
-# from pages.modal_dialogs import ModelPage
+import time
+from pages.demoqa import DemoQa
+from pages.modal_dialogs import ModelPage
 
 
 def test_modal_elements(browser):
