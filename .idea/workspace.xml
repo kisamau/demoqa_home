@@ -5,11 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d3264dd-0346-4679-82f9-c50531a8f938" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/pages/modal_dialogs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_page_dialogs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/basic_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/elements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/form_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/text_field.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saucedemo/base_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saucedemo/swag_labs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_login_form_validate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_text_box.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/accordion.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/accordion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/base_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/modal_dialogs.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/modal_dialogs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/swag_labs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_check_swag.py" beforeDir="false" afterPath="$PROJECT_DIR$/saucedemo/test_check_swag.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_page_dialogs.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_page_dialogs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/test_visible_hw.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_visible_hw.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/tests_hw/components_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests_hw/components_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/tests_hw/components_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/components/components_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/tests_hw/test_check_text.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_check_text.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +69,13 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zarya\PycharmProjects\demoqa_home\saucedemo" />
+      <recent name="C:\Users\zarya\PycharmProjects\demoqa_home\tests" />
+      <recent name="C:\Users\zarya\PycharmProjects\demoqa_home\components" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python tests.Python tests in test_visible_hw.py">
     <configuration name="Python tests in test_check_swag.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="demoqa_home" />
@@ -68,7 +88,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_check_swag.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/saucedemo/test_check_swag.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -134,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746117823728</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1746121407951</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746121407951</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

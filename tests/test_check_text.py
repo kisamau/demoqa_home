@@ -1,4 +1,4 @@
-from tests.tests_hw.components_test import Components, Elements
+# from tests.tests_hw.components_test import Components, Elements
 
 
 # def test_check_test(browser):

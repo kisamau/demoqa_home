@@ -1,8 +1,9 @@
 
-from tests.tests_hw.components_test import Components
+from components.components_test import Components
+from pages.basic_page import BasicPage
 
 
-class ModelPage(Components):
+class ModelPage(BasicPage):
 
     def __init__(self, driver):
         self.base_url = 'https://demoqa.com/modal-dialogs'
