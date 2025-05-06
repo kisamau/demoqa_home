@@ -2,7 +2,6 @@ import time
 from pages.demoqa import DemoQa
 from pages.modal_dialogs import ModelPage
 
-
 def test_modal_elements(browser):
     modal_page = ModelPage(browser)
     modal_page.visit()
