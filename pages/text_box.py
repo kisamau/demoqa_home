@@ -10,7 +10,7 @@ class TextBox(BasicPage):
 
         self.full_name = Components(driver, '#userName.mr-sm-2.form-control')
         self.current_address = Components(driver, '#currentAddress.form-control')
-        self.btn_submit = Components(driver, '#submit')
+        self.btn_submit = Components(driver, '#submit', "css")
         self.name_check = Components(driver, '#name')
         self.cur_address_check = Components(driver, '#output > div> #currentAddress')
 

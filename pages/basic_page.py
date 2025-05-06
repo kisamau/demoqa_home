@@ -16,9 +16,6 @@ class BasicPage:
         else:
             return False
 
-    def get_title(self):
-        return self.driver.title
-
     def back(self):
         self.driver.back()
 
@@ -27,3 +24,9 @@ class BasicPage:
 
     def refresh(self):
         self.driver.refresh()
+
+    def title(self):
+        return self.driver.title
+
+    def set_window_size(self, param, param1):
+        pass
