@@ -12,3 +12,8 @@ class ModelPage(BasicPage):
         self.icon = Components(driver, 'header > a > img')
         self.hdr_element = Components(driver, "#app > header > a > img")
         self.link = Components(driver, "#app > div > div > div > div:nth-child(1) > div > div > div:nth-child(3) > div > ul > li")
+
+        self.btn_small = Components(driver, '#showSmallModal')
+        self.btn_close_small = Components(driver, '#closeSmallModal')
+        self.btn_large = Components(driver, '#showLargeModal')
+        self.btn_close_large = Components(driver, '#closeLargeModal')
