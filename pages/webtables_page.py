@@ -24,3 +24,5 @@ class WebTables(BasicPage):
         self.edit_row = Components(driver, '#edit-record-1')
         self.delete_row = Components(driver, '#delete-record-1')
         # self.fn_row = Components(driver, '// *[ @ id = "app"] / div / div / div / div[2] / div[2] / div[3] / div[1] / div[2] / div[3] / div / div[1]', 'xpath')
+
+        self.header_column = Components(driver, 'div > div.rt-th.rt-resizable-header')
